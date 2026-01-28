@@ -130,11 +130,11 @@
 
 = 背景
 
-Typstの数式はLaTeXとは異なる体系を持っており、それなりにクセがあります。
-注意してください。
-例えば、$e^(i pi) + 1 = 0$はインライン数式に、$ dif S = (delta q) / T $はブロック数式になります。
+Typstの数式はLaTeXとは異なる体系を持っており，それなりにクセがあります．
+注意してください．
+例えば，$e^(i pi) + 1 = 0$はインライン数式に，$ dif S = (delta q) / T $はブロック数式になります．
 
-以下は文字稼ぎのための特に意味のない数式の連打です。
+以下は文字稼ぎのための特に意味のない数式の連打です．
 
 $
 sin(x)
@@ -158,21 +158,21 @@ $
 
 == 節
 
-Markdown記法に似ているところもあります。
-章や節は\#ではなく=ですが、まあ似てはいます。
-以下はLaTeXでいうitemizeです。
+Markdown記法に似ているところもあります．
+章や節は\#ではなく=ですが，まあ似てはいます．
+以下はLaTeXでいうitemizeです．
 
 - item1
 - item2
 - item3
 
-以下はLaTeXでいうenumerizeです。
+以下はLaTeXでいうenumerizeです．
 
 1. item1
 2. item2
 3. item3
 
-そして、以下はLaTeXでいうverbatimです。
+そして，以下はLaTeXでいうverbatimです．
 
 ```
 #include <stdio.h>
@@ -183,8 +183,8 @@ int main() {
 }
 ```
 
-#h(1em)表や図の書き方もそれなりにクセがあります。
-@some-table や @some-image のようにアットマークで参照できます。
+#h(1em)表や図の書き方もそれなりにクセがあります．
+@some-table や @some-image のようにアットマークで参照できます．
 
 #figure(
   table(
@@ -207,9 +207,9 @@ int main() {
   caption: [なんらかの図]
 ) <some-image>
 
-参考文献はworks.bibのようにBiBTeX形式が使えます。
-本文中で @bvh-org や @simple @3d のように参照することで初めてbibliography関数の結果に現れます。
-今回は taa を参照していないので、works.bibにあっても参考文献には載りません。
+参考文献はworks.bibのようにBiBTeX形式が使えます．
+本文中で @bvh-org や @simple @3d のように参照することで初めてbibliography関数の結果に現れます．
+今回は taa を参照していないので，works.bibにあっても参考文献には載りません．
 
 // ========================================================================== //
 //     Object                                                                 //
